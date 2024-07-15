@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* hero background image */
 .bgimage {
     height:100vh;
@@ -72,4 +77,58 @@
 }
 #contact {
     padding-bottom: 4rem;
+}
+
+/* Photo container scrolling */
+
+.photo-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.photo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.profile {
+    z-index: 2;
+}
+
+.other {
+    z-index: 1;
+}
+
+.photo-container:hover .profile {
+    transform: translateX(100%);
+}
+
+
+/* Waviy effect */
+.waviy {
+    position: relative;
+}
+
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    color: #000000;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i));
+}
+
+@keyframes flip {
+    0%, 100% {
+        transform: translateY(0deg);
+    }
+    20%, 80%  {
+        transform: rotateY(360deg);
+    }    
 }
