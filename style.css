@@ -113,12 +113,13 @@
 /* Waviy effect */
 .waviy {
     position: relative;
+    margin-bottom: 3em;
 }
 
 .waviy span {
     position: relative;
     display: inline-block;
-    font-size: 20px;
+    font-size: 40px;
     color: #000000;
     animation: flip 2s infinite;
     animation-delay: calc(.2s * var(--i));
@@ -131,4 +132,42 @@
     20%, 80%  {
         transform: rotateY(360deg);
     }    
+}
+
+
+/* Gradient border */
+.gradient-border {
+    position: relative;
+    width: 80%;
+    padding: 40px 0;
+    font-size: 3rem;
+    font-weight: 900;
+    background: #020117;
+    margin: auto;
+    color: white;
+    border-radius: 10%;
+}
+
+.gradient-border::after {
+    position: absolute;
+    content: "";
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    background: linear-gradient(45deg, #0779b2, #066b92, #0cb5f2a5, #0cbcf2);
+    z-index: -1;
+    border-radius: 10%;
+}
+
+.gradient-border::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg,#0779b2, #066b92, #0cb5f2a5, #0cbcf2);
+    filter: blur(40px);
+    z-index: -2;
 }
