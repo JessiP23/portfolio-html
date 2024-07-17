@@ -37,7 +37,7 @@ body {
 
 /* services section css */
 .servicesText.card {
-  height: 280px;
+  height: 500px;
   cursor: pointer;
 }
 .servicesIcon {
@@ -45,8 +45,11 @@ body {
   text-align: center;
   width: 100%;
 }
+
 .card-title {
   text-align: center;
+  margin-right: 1rem;
+  font-size: 40px;
 }
 .card:hover .servicesIcon {
   color: #008000;
