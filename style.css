@@ -7,7 +7,6 @@
 
 body {
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
-  overflow-x: hidden;
 }
 /* hero background image */
 .bgimage {
@@ -98,6 +97,10 @@ color: #f0f0f0 !important; /* Slightly lighter shade for active, focus, and hove
 }
 #contact {
   padding-bottom: 4rem;
+}
+
+#contact input, #contact textarea {
+  pointer-events: auto0;
 }
 
 /* Photo container scrolling */
