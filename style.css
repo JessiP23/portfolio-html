@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -459,7 +460,7 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
-  background-color: #FF0;
+  background-color: rgb(7, 218, 84);
 }
 
 .ag-timeline-card_box {
@@ -479,7 +480,7 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
-  border: 3px solid #FF0;
+  border: 3px solid rgb(4, 150, 116);
   background-color: #1d1d1b;
 
   text-align: center;
@@ -493,7 +494,7 @@ img {
 }
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
-  background-color: #FF0;
+  background-color: rgb(94, 204, 175);
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
@@ -504,7 +505,7 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
-  color: #FF0;
+  color: rgb(22, 224, 66);
 }
 .ag-timeline-card_item {
   display: inline-block;
@@ -701,3 +702,4 @@ img {
 #ai {
   margin-top: 10%;
 }
+
