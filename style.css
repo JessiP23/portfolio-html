@@ -7,6 +7,7 @@
 
 body {
   background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+  overflow-x: hidden;
 }
 /* hero background image */
 .bgimage {
@@ -100,7 +101,8 @@ color: #f0f0f0 !important; /* Slightly lighter shade for active, focus, and hove
 }
 
 #contact input, #contact textarea {
-  pointer-events: auto0;
+  pointer-events: auto;
+  cursor: pointer;
 }
 
 /* Photo container scrolling */
@@ -720,6 +722,11 @@ img {
   width: 100%
 }
 
-.but-link {
+.bt-link {
   margin-top: 5%;
+  width: 100%;
+}
+
+.form-section {
+  margin-right: 5%;
 }

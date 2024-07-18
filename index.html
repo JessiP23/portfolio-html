@@ -1063,7 +1063,8 @@
     <!-- contact section-->
     <section id="contact">
       <h1 class="text-center text-white">Contact Me</h1>
-      <div class="col-md-6 py-3">
+      <div class="d-flex">
+      <div class="col-md-6 py-3 form-section">
         <div class="form-group">
           <h5 for="name" class="text-white">Name</h5>
           <input type="text" class="form-control" id="name" placeholder="Enter your name">
@@ -1076,8 +1077,12 @@
           <h5 for="message" class="text-white">Message</h5>
           <textarea name="" id="message" rows="3" class="form-control"></textarea>
         </div>
-        <button class="btn btn-primary" onclick="sendMail()">Submit</button>
+        <button class="btn btn-primary bt-link" onclick="sendMail()">Submit</button>
       </div>
+      <div class="col-md-6 py-3">
+        <div style="overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="my-map-canvas" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Paterson,+NJ&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-maps-html" href="https://kbj9qpmy.com/bp" id="grab-map-data">Internet Provider</a><style>#my-map-canvas img.text-marker{max-width:none!important;background:none!important;}img{max-width:none}</style></div>
+      </div>
+    </div>
     </section>
 
     <!-- footer section-->
