@@ -703,3 +703,20 @@ img {
   margin-top: 10%;
 }
 
+/* icons */
+.icon-circle {
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* button icon */
+
+.link-button {
+  width: 100%
+}
+
+.but-link {
+  margin-top: 5%;
+}
