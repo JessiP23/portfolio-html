@@ -37,7 +37,7 @@ body {
 
 /* services section css */
 .servicesText.card {
-  height: 500px;
+  height: 110px;
   cursor: pointer;
 }
 .servicesIcon {
@@ -693,4 +693,11 @@ img {
     width: 960px;
   }
 
+}
+
+
+/* AI skills sectoin */
+
+#ai {
+  margin-top: 10%;
 }
