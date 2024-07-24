@@ -279,51 +279,6 @@ color: #f0f0f0 !important; /* Slightly lighter shade for active, focus, and hove
 }
 
 
-/* Astronaut  */
-#astronaut > img {
-  padding-top: 5px;
-  display: block;
-  left: 30%;
-  animation: anim 20s linear infinite;
-  position: absolute;
-}
-
-@keyframes anim {
-  0% {
-      transform: translateY(0px);
-  }
-  10% {
-      transform: translateY(30px) rotate(10deg);   
-  }
-  20% {
-      transform: translateY(60px) rotate(20deg);
-  }
-  30% {
-      transform: translateY(90px) rotate(30deg);
-  }
-  40% {
-      transform: translateY(120px) rotate(20deg);
-  }
-  50% {
-      transform: translateY(150px) rotate(30deg);
-  }
-  60% {
-      transform: translateY(120px) rotate(40deg);
-  }
-  70% {
-      transform: translateY(90px) rotate(10deg);
-  }
-  80% {
-      transform: translateY(60px) rotate(20deg);
-  }
-  90% {
-      transform: translateY(30px) rotate(10deg);
-  }
-  100% {
-      transform: translateY(0px);
-  }
-}
-
 
 /* About text */
 @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
