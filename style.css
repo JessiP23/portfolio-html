@@ -105,6 +105,10 @@ color: #f0f0f0 !important; /* Slightly lighter shade for active, focus, and hove
   cursor: pointer;
 }
 
+/* Container */
+
+
+
 /* Photo container scrolling */
 
 .photo-container {
@@ -278,35 +282,6 @@ color: #f0f0f0 !important; /* Slightly lighter shade for active, focus, and hove
   }
 }
 
-
-
-/* About text */
-@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
-
-svg {
-font-family: "Russo One", sans-serif;
-width: 100%; height: 100%;
-}
-svg text {
-animation: stroke 5s infinite alternate;
-stroke-width: 2;
-stroke: #108e2b;
-font-size: 100px;
-}
-@keyframes stroke {
-0%   {
-  fill: rgba(72,138,204,0); stroke: rgb(72, 160, 54);
-  stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
-}
-70%  {fill: rgba(72,138,204,0); stroke: rgba(72, 160, 54); }
-80%  {fill: rgba(72,138,204,0); stroke: rgba(72, 160, 54); stroke-width: 3; }
-100% {
-  fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
-  stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
-}
-}
-
-.wrapper {background-color: transparent};
 
 
 /* About section */
