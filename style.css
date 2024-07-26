@@ -660,3 +660,12 @@ img {
 .form-section {
   margin-right: 5%;
 }
+
+
+
+/* wrapper */
+
+.wrapper {
+  color: white;
+  font-size: 4em;
+}
