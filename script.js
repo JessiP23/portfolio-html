@@ -31,6 +31,7 @@
       agPosY = $(window).scrollTop();
       agHeight = $(window).height();
 
+
       fnUpdateFrame();
     }
 

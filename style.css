@@ -71,11 +71,10 @@ body {
   color: #008000;
 }
 .fab {
-  color: #000000;
+  color: white;
 }
 /* footer styling */
 #footer {
-  background-color: #808080;
   text-align: center;
 }
 
@@ -106,6 +105,9 @@ color: #f0f0f0 !important; /* Slightly lighter shade for active, focus, and hove
 }
 
 /* Container */
+.containerr {
+  height: 19em;
+}
 
 
 
@@ -668,4 +670,11 @@ img {
 .wrapper {
   color: white;
   font-size: 4em;
+}
+
+
+/* button styling class butt */
+
+ button {
+  background-color: #008000;
 }
