@@ -230,6 +230,32 @@ body {
   z-index: -2;
 }
 
+/* Add this to your CSS file */
+
+
+/* Tablet and mobile layout */
+@media (max-width: 969px) {
+  .card {
+    flex-direction: column;
+  }
+  .card-body {
+    padding: 15px;
+  }
+  .card-title {
+    font-size: 18px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  .icon-circle {
+    font-size: 18px;
+    margin: 5px;
+  }
+  .link-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -820,6 +846,8 @@ img {
 .form-section {
   margin-right: 5%;
 }
+
+/* Map */
 
 @media (min-width: 970px) {
   .form-section {
