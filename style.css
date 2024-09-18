@@ -126,7 +126,8 @@ body {
 
 /* Container */
 .containerr {
-  height: 19em;
+  height: auto;
+  min-height: 19em;
 }
 
 /* Photo container scrolling */
@@ -167,7 +168,7 @@ body {
 .waviy span {
   position: relative;
   display: inline-block;
-  font-size: 40px;
+  font-size: clamp(24px, 5vw, 40px);
   color: white;
   animation: flip 2s infinite;
   animation-delay: calc(.2s * var(--i));
