@@ -130,6 +130,8 @@ body {
   min-height: 19em;
 }
 
+
+
 /* Photo container scrolling */
 .photo-container {
   position: relative;
@@ -819,7 +821,30 @@ img {
   margin-right: 5%;
 }
 
+@media (min-width: 970px) {
+  .form-section {
+    width: 50%;
+    float: left;
+  }
+  #my-map-canvas {
+    width: 50%;
+    float: right;
+  }
+}
 
+/* Tablet and mobile layout */
+@media (max-width: 969px) {
+  .form-section {
+    width: 100%;
+  }
+  #my-map-canvas {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .d-flex {
+    flex-direction: column;
+  }
+}
 
 /* wrapper */
 
